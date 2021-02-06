@@ -1,0 +1,104 @@
+h1 {
+    text-align-last: center;
+    border: rgb(172, 209, 6);
+    border-style: outset;
+    border-width: 15px  ;
+    border-color: cadetblue;
+    border-radius: 2px;
+    font-family:fantasy ;
+    font-variant: small-caps;
+    position: sticky;
+    background-color: cornsilk;
+    text-shadow: 10px gray;
+    margin: 0vw 25vw 0vw 25vw
+}
+h4 {
+    text-align: center;
+    border-style: groove;
+    border-width: 6px;
+    border-color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: cornsilk;
+    border-radius: 5px;
+    color: rgb(29, 83, 85);
+    margin: 0vw 20vw 0vw 20vw
+}
+body {
+    background-color: rgb(243, 227, 184);
+}
+
+.cont1{
+    padding-top: 60px;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cont2{
+    height:60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tile{
+    height:150px;
+    width:150px;
+    background-color: teal;
+    margin: 15px;  
+    border-style: outset; 
+    border-width: 5px;
+}
+
+h2 {
+    text-align: center;
+    border-style:inset;
+    border-width: 6px;
+    border-color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: cornsilk;
+    border-radius: 5px;
+    color: rgb(29, 83, 85);
+    margin: 0vw 40vw 0vw 40vw;
+    font-variant: small-caps;
+} 
+#re {text-align: center;
+    border-style:inset;
+    border-width: 6px;
+    border-color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: cornsilk;
+    border-radius: 5px;
+    color: rgb(29, 83, 85);
+    margin: 0vw 40vw 0vw 40vw;
+    font-variant: small-caps;
+    justify-items: center;
+    align-items: center;
+    
+}
+h3    
+    {text-align: center;
+    border-style:inset;
+    border-width: 6px;
+    border-color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: cornsilk;
+    border-radius: 5px;
+    color: rgb(29, 83, 85);
+    margin: 0vw 40vw 0vw 40vw;
+    font-variant: small-caps;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+body {
+    counter-reset: section;
+  }
+  
+  h3::before {
+    counter-increment: section;
+    content: "NO. of tries " counter(section) ": ";
+  }
